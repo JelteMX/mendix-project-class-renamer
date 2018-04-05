@@ -1,0 +1,9 @@
+node_modules
+
+src/**/*.js
+*.xlsx
+output/*.json
+output/*.xlsx
+
+.env
+dist

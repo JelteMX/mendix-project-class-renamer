@@ -1,0 +1,42 @@
+{
+  "name": "mendix-project-class-renamer",
+  "version": "1.0.1",
+  "description": "",
+  "bin": {
+    "mendix-project-stylereporter": "./bin/mendix-project-class-renamer"
+  },
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "execute": "tsc && node dist/cli.js"
+  },
+  "keywords": [
+    "mendix",
+    "styling",
+    "reporter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeltemx/mendix-project-class-renamer"
+  },
+  "bugs": {
+    "url": "https://github.com/jeltemx/mendix-project-class-renamer/issues"
+  },
+  "readmeFilename": "README.md",
+  "author": "Jelte Lagendijk <jelte.lagendijk@mendix.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/lodash": "^4.14.92",
+    "@types/node": "^9.3.0",
+    "@types/when": "^2.4.29",
+    "chalk": "^2.3.0",
+    "dotenv": "^4.0.0",
+    "fs-extra": "^5.0.0",
+    "lodash": "^4.17.4",
+    "mendixmodelsdk": "^4.8.0",
+    "mendixplatformsdk": "^4.0.0",
+    "when": "^3.7.8",
+    "xlsx": "^0.11.17"
+  }
+}

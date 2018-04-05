@@ -1,0 +1,17 @@
+.git*
+docs/
+examples/
+support/
+test/
+output/
+
+test.js
+testing.js
+.travis.yml
+.DS_Store
+coverage.html
+lib-cov
+*.mpk
+*.xlsx
+
+*DS_Store*
